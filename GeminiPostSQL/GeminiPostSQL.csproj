@@ -13,7 +13,7 @@
     <Copyright>Open Source Apache Licence 2.0</Copyright>
     <PackageProjectUrl>https://github.com/LuisMiSanVe/GeminiPostSQL_NuGet</PackageProjectUrl>
     <RepositoryUrl>https://github.com/LuisMiSanVe/GeminiPostSQL_NuGet</RepositoryUrl>
-    <PackageIcon>icon.png</PackageIcon>
+    <PackageIcon>Resources/icon.png</PackageIcon>
     <RepositoryType>git</RepositoryType>
     <NeutralLanguage>en</NeutralLanguage>
     <AssemblyVersion>1.0.0</AssemblyVersion>
@@ -21,10 +21,23 @@
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes>Initial Release of GeminiPostSQL NuGet</PackageReleaseNotes>
     <PackageTags>database;ai;postgresql;gemini</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
     <Content Include="Resources\icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
