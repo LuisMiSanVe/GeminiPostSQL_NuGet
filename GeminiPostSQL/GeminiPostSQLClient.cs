@@ -115,7 +115,7 @@ namespace GeminiPostSQL
         public async Task<string> GenerateSQL(string input)
         {
             string result = "";
-            if (apikey != "" && database != "" && jsonMap != "" && input != "")
+            if (apikey != "" && database != "" && input != "")
             {
                 // Connects to the database
                 var connection = new NpgsqlConnection(database);
@@ -203,6 +203,8 @@ namespace GeminiPostSQL
             {
                 // Connects to the database
                 var connection = new NpgsqlConnection(database);
+
+                connection.Open();
                 // OBTAIN DB
                 // Get the quantity of tables and columns for the loading bar
                 var tableQuantity = new NpgsqlCommand("SELECT (" +
@@ -259,6 +261,7 @@ namespace GeminiPostSQL
                 };
 
                 jsonMap = System.Text.Json.JsonSerializer.Serialize(tables, opcions);
+                connection.Close();
             }
             else
                 result = false;
