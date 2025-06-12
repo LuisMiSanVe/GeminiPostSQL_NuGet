@@ -51,6 +51,9 @@ Returns a boolean value, depending if the mapping process were successful or not
 Runs the generated query (or any) in the database server.
 Return the result table for the generated SQL sentence. If it fails, it will return a table with only one column named 'Error' with the description of the error. 
 
+> [!TIP]
+> You can test it's functionalities with the [Test Demo](https://github.com/LuisMiSanVe/GeminiPostSQL_NuGetTest/tree/main)
+
 ## 🚀 Releases
 The version will be released using these versioning policies:\
 New major features and critical bug fixes will cause the immediate release of a new version, while other minor changes or fixes will wait one week since the time the change is introduced in the repository before being included in the new version, so that other potential changes can be added.

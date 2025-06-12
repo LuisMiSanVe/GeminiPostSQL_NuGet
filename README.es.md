@@ -53,6 +53,9 @@ Devuelve un booleano, dependiendo si el proceso fue exitoso o no, si lo es, el J
 Ejecuta la sentecia generada (o cualquiera) en el servidor de la base de datos.
 Devuelve la tabla de resultados de la semtencia SQL generada. Si falla, devolverá una tabla con solo una columna llamada 'Error' con la descripcion del fallo. 
 
+> [!TIP]
+> Puedes probar sus funcionalidades en la [Demostración de prueba](https://github.com/LuisMiSanVe/GeminiPostSQL_NuGetTest/tree/main)
+
 ## 🚀 Lanzamientos
 Una versión será lanzada solo cuando se cumplan los siguientes puntos:\
 Nuevas funciones importantes y arreglos de fallos criticos causarán la salida inmediata de una nueva versión, mientras que otros cambios o arreglos menores deberán esperar una semana desde que se incluyeron en el repositorio antes de ser incluidos en la nueva versión, para que otros posibles cambios puedan ser añadidos también.
