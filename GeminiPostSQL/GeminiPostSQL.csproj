@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>Resources\icon.ico</ApplicationIcon>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>GeminiPostSQL</Title>
+    <Authors>LuisMiSanVe</Authors>
+    <Company>LuisMiSanVe &amp; Komma</Company>
+    <Description>NuGet package of GeminiPostSQL, which translates natural language into SQL queries.</Description>
+    <Copyright>Open Source Apache Licence 2.0</Copyright>
+    <PackageProjectUrl>https://github.com/LuisMiSanVe/GeminiPostSQL_NuGet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/LuisMiSanVe/GeminiPostSQL_NuGet</RepositoryUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <RepositoryType>git</RepositoryType>
+    <NeutralLanguage>en</NeutralLanguage>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>Initial Release of GeminiPostSQL NuGet</PackageReleaseNotes>
+    <PackageTags>database;ai;postgresql;gemini</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Npgsql" Version="9.0.3" />
+    <PackageReference Include="RestSharp" Version="112.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
