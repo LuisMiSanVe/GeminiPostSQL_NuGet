@@ -37,7 +37,7 @@ En Google AI Studio, puedes monitorizar el uso de la IA haciendo clic en 'Ver da
 Ya tienes todo lo que necesitas para hacer funcionar el programa.  
 Simplemente pon los datos que acabas de conseguir en el objeto Client.
 
-## 📖 Sobre el programa de WinForms
+## 📖 Sobre el paquete NuGet
 Para usarlo, debes inicializar el [Client](https://github.com/LuisMiSanVe/GeminiPostSQL_NuGet/blob/main/GeminiPostSQL/GeminiPostSQLClient.cs) el cual tiene tres métodos:
 
 **[GenerateSQL(string input):](https://github.com/LuisMiSanVe/GeminiPostSQL_NuGet/blob/main/GeminiPostSQL/GeminiPostSQLClient.cs#L115)**
