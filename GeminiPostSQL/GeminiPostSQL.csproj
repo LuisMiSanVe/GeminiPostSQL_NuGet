@@ -16,14 +16,16 @@
     <PackageIcon>Resources/icon.png</PackageIcon>
     <RepositoryType>git</RepositoryType>
     <NeutralLanguage>en</NeutralLanguage>
-    <AssemblyVersion>1.0.1</AssemblyVersion>
-    <FileVersion>1.0.1</FileVersion>
+    <AssemblyVersion>1.0.2</AssemblyVersion>
+    <FileVersion>1.0.2</FileVersion>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <PackageReleaseNotes>Initial Release of GeminiPostSQL NuGet</PackageReleaseNotes>
+    <PackageReleaseNotes>1.0.0 - Initial Release (had critical bugs making it unusable)
+1.0.1 - Critical Bug Fix
+1.0.2 - Bug Fix: runOnGenerateSQL didn't properly work</PackageReleaseNotes>
     <PackageTags>database;ai;postgresql;gemini</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>

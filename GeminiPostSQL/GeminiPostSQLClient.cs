@@ -160,7 +160,7 @@ namespace GeminiPostSQL
                                 generatedSql = resp.RootElement.GetProperty("candidates")[0].GetProperty("content").GetProperty("parts")[0].GetProperty("text").GetString().Replace("```sql", "").Replace("```", "").Replace('\n', ' ').Trim();
                                 result = Regex.Replace(generatedSql, @"\s+", " ");
 
-                                if (runOnGenerateSQL && result.Contains("select"))
+                                if (runOnGenerateSQL)
                                     result = JsonConvert.SerializeObject(RunQuery(result).Result);
                             }
                             catch (HttpRequestException ex)
