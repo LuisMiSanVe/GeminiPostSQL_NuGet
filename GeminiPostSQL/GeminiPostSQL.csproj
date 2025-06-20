@@ -16,16 +16,17 @@
     <PackageIcon>Resources/icon.png</PackageIcon>
     <RepositoryType>git</RepositoryType>
     <NeutralLanguage>en</NeutralLanguage>
-    <AssemblyVersion>1.0.2</AssemblyVersion>
-    <FileVersion>1.0.2</FileVersion>
+    <AssemblyVersion>1.1.0</AssemblyVersion>
+    <FileVersion>1.1.0</FileVersion>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageReleaseNotes>1.0.0 - Initial Release (had critical bugs making it unusable)
 1.0.1 - Critical Bug Fix
-1.0.2 - Bug Fix: runOnGenerateSQL didn't properly work</PackageReleaseNotes>
+1.0.2 - Bug Fix: runOnGenerateSQL didn't properly work
+1.1.0 - Enhance: the returned errors will start with "[ERROR]" to identify errors easier</PackageReleaseNotes>
     <PackageTags>database;ai;postgresql;gemini</PackageTags>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReadmeFile>README_NUGET.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <Version>1.0.2</Version>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -37,7 +38,7 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="..\README.md">
+    <None Include="..\README_NUGET.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>

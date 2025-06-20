@@ -165,29 +165,29 @@ namespace GeminiPostSQL
                             }
                             catch (HttpRequestException ex)
                             {
-                                result = "The provided Gemini API Key has failed to access the endpoint, make sure the API Key or Service is functional (" + ex.StatusCode + ")";
+                                result = "[ERROR] The provided Gemini API Key has failed to access the endpoint, make sure the API Key or Service is functional (" + ex.StatusCode + ")";
 
                             }
                             catch (Exception ex)
                             {
-                                result = "The provided Gemini API Key has failed to access the endpoint, make sure the API Key or Service is functional (" + ex.Message + ")";
+                                result = "[ERROR] The provided Gemini API Key has failed to access the endpoint, make sure the API Key or Service is functional (" + ex.Message + ")";
                             }
                         }
                         else
-                            result = "The mapping process has failed";
+                            result = "[ERROR] The mapping process has failed";
 
                             connection.Close();
                     }
                     catch (Exception ex)
                     {
-                        result = "The configured Database couldn't be reached, please check if the Database can still be connected with this configuration.";
+                        result = "[ERROR] The configured Database couldn't be reached, please check if the Database can still be connected with this configuration.";
                     }
                 }
                 else
-                    result = "You need to set up a proper Database connection first!";
+                    result = "[ERROR] You need to set up a proper Database connection first!";
             }
             else
-                result = "All the Client's parameters must be filled.";
+                result = "[ERROR] All the Client's parameters must be filled.";
 
             return result;
         }
