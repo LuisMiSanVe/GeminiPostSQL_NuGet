@@ -1,8 +1,6 @@
 > [See in spanish/Ver en español](https://github.com/LuisMiSanVe/GeminiPostSQL_NuGet/blob/main/README.es.md)
 
-![image](https://github.com/LuisMiSanVe/LuisMiSanVe/blob/main/Resources/GeminiPostSQL/GeminiPostSQLNuGet_banner.png)
-
-# ![image](https://github.com/LuisMiSanVe/GeminiPostSQL_NuGet/blob/main/GeminiPostSQL/Resources/icon.ico) GeminiPostSQL NuGet | AI-Assisted NuGet Package for PostgreSQL
+# GeminiPostSQL NuGet | AI-Assisted NuGet Package for PostgreSQL
 [![image](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)](https://dotnet.microsoft.com/en-us/languages/csharp)
 [![image](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet)
 [![image](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
