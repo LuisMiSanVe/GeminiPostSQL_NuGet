@@ -10,7 +10,11 @@
 [![NuGet](https://img.shields.io/badge/NuGet-%23004880.svg?style=for-the-badge&logo=nuget&logoColor=white)](https://www.nuget.org/)
 
 >[!NOTE]
-> This is the NuGet Package version meant for developer use. There is a [WinForms](https://github.com/LuisMiSanVe/GeminiPostSQL/tree/main) meant for client use, a [REST API](https://github.com/LuisMiSanVe/GeminiPostSQL_API/tree/main) version meant for servers with Swagger and a [ChatBot](https://github.com/LuisMiSanVe/GeminiPostSQL_ChatBot/tree/main) in Blazor for web clients.
+> Check out other versions of this program:
+>- [WinForms](https://github.com/LuisMiSanVe/GeminiPostSQL/tree/main)
+>- [REST API](https://github.com/LuisMiSanVe/GeminiPostSQL_API/tree/main) 
+>- [ChatBot](https://github.com/LuisMiSanVe/GeminiPostSQL_ChatBot/tree/main)
+>- [Android](https://github.com/LuisMiSanVe/GeminiLiteSQL/tree/main)
 
 This NuGet package uses Google's AI 'Gemini 2.0 Flash' to make queries to PostgreSQL databases.  
 The AI interprets natural language into SQL queries using one method, with its pros and cons.

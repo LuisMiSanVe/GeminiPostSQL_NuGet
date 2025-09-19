@@ -12,7 +12,11 @@
 [![NuGet](https://img.shields.io/badge/NuGet-%23004880.svg?style=for-the-badge&logo=nuget&logoColor=white)](https://www.nuget.org/)
 
 >[!NOTE]
-> Esta es la versión de paquete NuGet pensada para ser usada por desarrolladores. Hay una versión de [WinForms](https://github.com/LuisMiSanVe/GeminiPostSQL/tree/main) pensada para usarse como cliente, una de [REST API](https://github.com/LuisMiSanVe/GeminiPostSQL_API/blob/main/README.es.md) pensada para su uso en servidores con Swagger y un [ChatBot](https://github.com/LuisMiSanVe/GeminiPostSQL_ChatBot/tree/main) de Blazor como cliente web.
+> Dale un vistazo a las otras versiones del programa:
+>- [WinForms](https://github.com/LuisMiSanVe/GeminiPostSQL/tree/main)
+>- [REST API](https://github.com/LuisMiSanVe/GeminiPostSQL_API/tree/main) 
+>- [ChatBot](https://github.com/LuisMiSanVe/GeminiPostSQL_ChatBot/tree/main)
+>- [Android](https://github.com/LuisMiSanVe/GeminiLiteSQL/tree/main)
 
 Este paquete NuGet usa la IA de Google 'Gemini 2.0 Flash' para generar consultas a bases de datos PostgreSQL.  
 La IA convierte lenguaje natural a consultas SQL usando un método con sus ventajas y desventajas.
